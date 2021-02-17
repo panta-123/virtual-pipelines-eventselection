@@ -1,7 +1,7 @@
 name: example
 on: push
 jobs:
-  greeting:
+  secondgreeting:
     runs-on: ubuntu-latest
     steps:
-      - run: echo hello world
+      - run: echo hello world 2
