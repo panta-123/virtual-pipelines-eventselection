@@ -80,10 +80,11 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: skim_ggH
+
       - uses: actions/download-artifact@v2
         with:
           name: histograms
-      - name: build
+      - name: plot test both
         run: |
-          mkdir tests
-          cd tests/
+          python tests/test_cutflow_ggH.py
+          python tests/test_plot_ggH
