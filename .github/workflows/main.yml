@@ -87,4 +87,4 @@ jobs:
       - name: plot test both
         run: |
           python tests/test_cutflow_ggH.py
-          python tests/test_plot_ggH
+          python tests/test_plot_ggH.py
