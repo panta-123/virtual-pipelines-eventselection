@@ -102,4 +102,4 @@ jobs:
           name: histograms
 
       - name: fit
-        run: python fit.py tests/
+        run: python fit.py hist_ggH.root tests/
