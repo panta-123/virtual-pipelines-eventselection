@@ -84,7 +84,7 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: histograms
-      - name: plot test both
+      - name: test cut flow
         run: python tests/test_cutflow_ggH.py
-      - name:
+      - name: test plot
         run: python tests/test_plot_ggH.py
